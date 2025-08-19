@@ -1,0 +1,1 @@
+import"../chunks/DsnmJJEf.js";import"../chunks/BkOl3Ci7.js";import{f as t,a as m,s as r,c as i,r as l}from"../chunks/BOCc00C_.js";import{T as n}from"../chunks/BNB9Spzc.js";var p=t('<main class="p-6 max-w-lg mx-auto"><h1 class="text-2xl font-bold mb-4">✅ All Todos</h1> <!></main>');function x(o){var a=p(),s=r(i(a),2);n(s,{filter:"all"}),l(a),m(o,a)}export{x as component};

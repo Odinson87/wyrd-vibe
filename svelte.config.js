@@ -2,7 +2,7 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 const dev = process.env.NODE_ENV === 'development';
-const repoName = 'YOUR_REPO_NAME'; 
+const repoName = 'wyrd-vibe'; 
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -20,7 +20,8 @@ const config = {
 			fallback: 'index.html' // for SPA routing
 		}),
 		paths: {
-			base: dev ? '' : `/${repoName}`
+			base: dev ? '' : `/${repoName}`,
+			assets: dev ? '' : `https://odinson87.github.io/${repoName}`, // use relative paths for JS/CSS assets on dev, absolute on prod
 		}
 	}
 };

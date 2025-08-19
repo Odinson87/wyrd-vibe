@@ -1,0 +1,1 @@
+import"../chunks/DsnmJJEf.js";import"../chunks/BkOl3Ci7.js";import{f as s,a as i,s as m,c as r,r as e}from"../chunks/BOCc00C_.js";import{T as n}from"../chunks/BNB9Spzc.js";var p=s('<main class="p-6 max-w-lg mx-auto"><h1 class="text-2xl font-bold mb-4">🟢 Active Todos</h1> <!></main>');function v(o){var a=p(),t=m(r(a),2);n(t,{filter:"active"}),e(a),i(o,a)}export{v as component};
